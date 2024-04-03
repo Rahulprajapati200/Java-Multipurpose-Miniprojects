@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "db1.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.connection.multiDataBase.config.product.DbOneConfig",
+      "sourceMethod": "javax.sql.DataSource db1DataSource() "
+    },
+    {
+      "name": "db2.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.connection.multiDataBase.config.customer.DbTwoConfig",
+      "sourceMethod": "javax.sql.DataSource db2DataSource() "
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
